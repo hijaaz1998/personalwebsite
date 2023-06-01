@@ -10,7 +10,7 @@ html,body{
     position: relative;
     width: 100vw;
     height: 500px;
-    background-image: url(Images/restaurant.avif);
+    background-image: url(./Images/restaurant.avif);
     background-position: center;
     
     background-size: cover;
