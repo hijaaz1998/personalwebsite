@@ -1,0 +1,210 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+  }
+
+  #header-img{
+    position: relative;
+    width: 100vw;
+    height: 500px;
+    background-image: url(Images/restaurant.avif);
+    background-position: center;
+    
+    background-size: cover;
+  }
+
+  header{
+    width: 100vw;
+    height: 60px;
+  }
+
+  .header-space{
+
+    justify-content: space-between;
+  }
+  .nav-menu{
+    width: 60vw;
+    height: 60px;
+  }
+
+  .zomato{
+    display: block;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-size: 68px;
+    margin: 0;
+    font-family: Okra, Helvetica, sans-serif;
+  }
+
+  .header-flex{
+    margin-top: 100px;
+  }
+
+  .nav-link{
+    border-bottom: 0px solid black;
+    transition: border-bottom 0.3s;
+    cursor: pointer;
+  }
+
+  .nav-link:hover{
+    
+  }
+
+  .search-box{
+    width: 30vw;
+    height: 60px;
+    background-color: white;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .search-btn{
+    width: 130px;
+    background-color: white;
+    border-left: 2px solid black;
+    color: black;
+    border-top: none  ;
+    border-right: none;
+    border-bottom: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+    #second-section{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  
+    .card{
+      width: 300px;
+      height: 220px;
+      background-color: white;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 1px 1px 10px white;
+      overflow: hidden;
+      transition: box-shadow 0.3s;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .card:hover{
+      
+
+    }
+
+    .card-bottom{
+       position: absolute;
+       background-color: white;
+       height: 70px;
+       width: 100%;
+       margin-top: 150px;
+    }
+
+    .explore{
+      font-size: large;
+    }
+
+    .descp-1{
+      bottom: 20px;
+      left: 20px;
+    }
+
+    .descp-2{
+      bottom: -3px;
+      left: 20px;
+    }
+
+    .card-second{
+      
+      
+      background-color: white;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 1px 1px 10px white;
+      overflow: hidden;
+      transition: box-shadow 0.3s;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    #popular-localities{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .popular-heading{
+      font-size: 40px;
+      color: black;
+    }
+
+    .location-div{
+      width: 100%;
+      height: 60px;
+      padding-left: 20px;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      cursor: pointer;
+
+    }
+    
+    #get-zomato-app{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background-color: rgb(255, 251, 247);
+    }
+
+    .email-input{
+      width: 240px;
+      height: 40px;
+      padding-left: 10px;
+      border: 1px solid #ccc;
+      outline: none;
+      border-radius: 10px;
+      background-color: white;
+    }
+
+   .img-playstore{
+    width: 150px;
+    height: 50px;
+   }
+
+   .img-appstore{
+    width: 150px;
+    height: 50px;
+   }
+
+   #explore-zomato{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
+
+   #footer-zomato{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background: rgb(248, 248, 248);
+   }
+
+   .button-nav{
+    color: white;
+    border-style: none;
+background-color: transparent;     }
+
+.button-nav:hover{
+background-color: transparent;
+color: white;
+}
